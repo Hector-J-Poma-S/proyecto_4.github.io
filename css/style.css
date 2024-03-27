@@ -1,0 +1,42 @@
+body {
+    background-image: url(/img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titulo{
+    width: 80%;
+    height: 160px;
+    background-image: url(/img/BIENVENIDO.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.inicio{
+    text-align: center;
+    font-size: 50px;
+}
+.carrusel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+}
+.columna{
+    height: 350px;
+}
+.accordion-item {
+    background-color: #e60808; /* Color de fondo deseado */
+}
+
+/* Cambiar el color del texto del botón del acordeón */
+.accordion-button {
+    color: #1f0091; /* Color del texto deseado */
+}
+
+/* Cambiar el color del botón del acordeón cuando está activo */
+.accordion-button:not(.collapsed) {
+    background-color: #b5ff08; /* Color de fondo deseado */
+}
